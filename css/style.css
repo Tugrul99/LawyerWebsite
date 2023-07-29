@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+span {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.navbar-toggler {
+    background-color: white !important;
+
+}
+
+.navbar {
+    margin: 1rem 10rem 0px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+#navbar {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-item {
+    text-shadow: 1px 0 10px rgb(119, 115, 115) !important;
+    padding-left: 15px;
+
+
+}
+
+.navbar-toggler {
+    color: white !important;
+}
+
+
+.main-header {
+
+    background-image: url(/img/giammarco-boscaro-eWpBNXRHfTI-unsplash.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    filter: brightness(0.9);
+    position: relative;
+    top: 0;
+    left: 0;
+
+    min-height: 100vh;
+
+}
+
+.butons {
+    margin-top: 2rem;
+}
+
+.btn-secondary {
+
+    color: black !important;
+
+
+}
+
+.btn-secondary:hover {
+    color: white !important;
+    transition: 1s all ease;
+
+
+}
+
+.btn-secondary {
+    background: linear-gradient(to bottom, #fefefe, rgb(39, 39, 39));
+    ;
+    padding: 10px 15px !important;
+    margin: 5px;
+
+}
+
+.main-text {
+    text-align: left;
+    position: absolute;
+    top: 56%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main-text h1,
+p {
+    text-shadow: 1px 10px 4px rgb(0, 0, 0) !important;
+
+}
+
+/* ABOUT */
+
+#about {
+    padding: 7% 15%;
+    background: linear-gradient(to left, #747474, rgb(226, 226, 226));
+    ;
+
+
+
+}
+
+.avukat {
+    height: 500px;
+    max-width: 100%;
+    object-fit: cover;
+    padding-left: 3rem !important;
+}
+
+
+.about-txt {
+
+    text-align: center;
+    text-shadow: 1px 0px 10px rgb(94, 92, 92) !important;
+
+}
+
+.about-txt p {
+    text-align: justify !important;
+    line-height: 1.8rem;
+
+}
+
+.about-txt h2::after {
+
+    content: "";
+    background-color: black;
+    width: auto;
+    height: 0.8px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.about-description {
+    text-align: center !important;
+
+}
+
+.about-description p {
+    text-align: justify !important;
+    color: #747474 !important;
+    text-shadow: none !important;
+
+
+
+}
+
+/* WORKAREA */
+.workarea {
+    padding: 7% 10%;
+
+}
+
+.wimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+
+}
+
+.wimg img {
+    max-width: 100%;
+    height: 420px !important;
+    object-fit: cover;
+    padding-top: 2rem !important;
+    overflow: hidden;
+    position: relative;
+    filter: brightness(0.5);
+
+}
+
+.wimg h6 {
+    text-align: center !important;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.hea {
+    flex-direction: column;
+    position: absolute !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.hea button {
+    color: white !important;
+    border-color: white;
+    padding: 10px 15px;
+    border-radius: 0 !important;
+
+
+}
+
+/* CAROUSEL */
+
+.container-fluid {
+ 
+    text-align: center;
+}
+
+.carousel-container{
+    position: relative;
+}
+
+
+
+.testimonial-text {
+    font-size: 1.5rem;
+    font-style: italic;
+   
+}
+
+.overlay {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important; 
+    background-image: url(/img/hukukduvari.jpg) !important;
+    filter: brightness(0.3);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+
+
+
+
+
+.carousel-item {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+.carousel-item img {
+    width: 8% !important;
+    margin: 20px !important;
+    border-radius: 80% !important;
+    height: 90px;
+    object-fit: cover !important;
+}
+
+/* FOOTER ILETISIM */
+#iletisim{
+    background-color: transparent;
+    background-image: linear-gradient(200deg, #EFEFEF 0%, #070707FC 41%);
+    opacity: 0.93;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
+    padding: 5% 15%;
+}
+
+.footer-item li{
+   color: white;
+    list-style: none;
+    padding-top: 15px;
+
+}
+
+
+.footer-item h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+  
+}
+.footer-item h2::after{
+    content: "";
+    background-color: rgb(221, 221, 221);
+    width: auto;
+    height: 0.8px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-item{
+    padding-right: 4rem !important;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.social i{
+    font-size: 2.5rem;
+}
+
+.fa-instagram{
+   color: red;
+  
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-linkedin-in{
+    color: aqua;
+}
+
+/* RESPONSIVE AREA */
+
+/* SECTION MAIN HEADER */
+@media screen and (max-width:1200px) {
+    .nav-item {
+        font-size: smaller;
+        padding-left: 5px;
+    }
+
+    .navbar-brand {
+        font-size: large !important;
+    }
+
+
+}
+
+@media screen and (max-width:772px) {
+    .navbar {
+        font-size: smaller;
+        margin: 1rem 3rem 0px;
+    }
+
+    .nav-item a {
+        font-size: small !important;
+    }
+
+    #about {
+        padding: 7% 8% !important;
+    }
+
+    .about-one h2 {
+        font-size: 30px !important;
+
+
+    }
+
+    .about-one h3 {
+        font-size: 16px !important;
+    }
+
+    .about-one p,
+    span {
+        font-size: 13px !important;
+        text-align: justify !important;
+
+
+
+
+
+
+    }
+
+    .about-description p {
+        text-align: justify !important;
+
+
+    }
+
+    .avukat {
+        padding-left: 0rem !important;
+    }
+
+}
+
+@media screen and (max-width:559px) {
+    .main-text h1 {
+        font-size: 2rem !important;
+    }
+
+    .main-text p {
+        font-size: small !important;
+        text-align: left;
+    }
+
+    .btn-secondary {
+        padding: 2px !important;
+        font-size: smaller !important;
+        text-align: left !important;
+    }
+}
